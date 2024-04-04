@@ -1,2 +1,21 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,400&family=Raleway:wght@100&family=Roboto:wght@900&display=swap');
+
+  @media screen and (max-width: 768px) {
+    /* Adjust header styles */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust image size */
+    img {
+        max-width: 100%;
+        height: auto;
+    }}
+    
